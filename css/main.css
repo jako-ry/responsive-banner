@@ -29,11 +29,16 @@ img {
     max-height: none;
   }
 
+  .right {
+    text-align: right;
+  }
+
   .btn {
     border-color: #fff;
   }
 
   .bg {
+    width: 100%;
     position: absolute;
     top: 300px;
     background-image: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(73, 85, 98, 0));
@@ -45,7 +50,6 @@ img {
 
   .bg {
     top: 283px;
-    left: 163px;
   }
 
 }
