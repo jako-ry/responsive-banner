@@ -18,3 +18,34 @@ img {
   background-color: #fff;
   border-color: #fff;
 }
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    max-height: 500px;
+  }
+
+  img {
+    max-height: none;
+  }
+
+  .btn {
+    border-color: #fff;
+  }
+
+  .bg {
+    position: absolute;
+    top: 300px;
+    background-image: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(73, 85, 98, 0));
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .bg {
+    top: 283px;
+    left: 163px;
+  }
+
+}
