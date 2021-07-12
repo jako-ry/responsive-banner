@@ -4,10 +4,6 @@ html {
   color: #efefef;
 }
 
-img {
-  max-height: 500px;
-}
-
 .btn {
   color: #fff;
   border-color: #97a49b;
@@ -19,18 +15,18 @@ img {
   border-color: #fff;
 }
 
+@media only screen and (min-width: 38em) {
+
+  .right {
+    text-align: right;
+  }
+
+}
+
 @media only screen and (min-width: 60em) {
 
   html {
     max-height: 500px;
-  }
-
-  img {
-    max-height: none;
-  }
-
-  .right {
-    text-align: right;
   }
 
   .btn {
